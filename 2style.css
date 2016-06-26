@@ -140,7 +140,7 @@ nav p {
 #left {
   display: inline-block;
   color: #033048;
-  width: 70rem;
+  width: 60%;
   font-size: 0;
   margin-right: 2rem;
   margin-bottom: 5rem;
@@ -175,7 +175,7 @@ h3 {
 
 #right {
   display: inline-block;
-  width: 24rem;
+  width: 30%;
   font-size: 0;
   color: #033048;
   margin-left: 2rem;
