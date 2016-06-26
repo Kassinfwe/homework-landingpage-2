@@ -143,7 +143,8 @@ nav p {
   width: 70rem;
   font-size: 0;
   margin-right: 2rem;
-  margin-bottom: 4rem;
+  margin-bottom: 5rem;
+  vertical-align: top;
 }
 
 img {
@@ -151,13 +152,13 @@ img {
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
 }
 
 p {
   font-weight: 300;
-  font-size: 2rem;
+  font-size: 2.4rem;
 }
 
 h3 {
@@ -178,6 +179,12 @@ h3 {
   font-size: 0;
   color: #033048;
   margin-left: 2rem;
+  vertical-align: top;
+}
+
+#right p {
+  font-size: 2.4rem;
+  font-weight: 300;
 }
 
 /* There is an odd chunk of empty space above "Categories", 
@@ -188,8 +195,17 @@ at all - so where is it coming from?! Google stays silent on this.*/
 
 h4 {
   font-weight: 800;
-  font-size: 3rem;
+  font-size: 3.2rem;
   color: 033048;
+}
+
+#about p {
+  font-size: 2.2rem;
+  font-weight: 300;
+}
+
+#about h3 {
+  font-size: 2.2rem;
 }
 
 #cta-div {
