@@ -121,7 +121,8 @@ header h1{
   display: inline-block;
   padding-right: 84rem;
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 2.6rem;
+  font-weight: 800;
 }
 
 nav {
@@ -133,14 +134,14 @@ nav p {
   padding-left: 2rem;
   padding-right: 2rem;
   color: #f9e42e;
-  font-size: 2.4rem;
+  font-size: 2.2rem;
   font-weight: 600;
 }
 
 #left {
   display: inline-block;
   color: #033048;
-  width: 60%;
+  width: 70%;
   font-size: 0;
   margin-right: 2rem;
   margin-bottom: 5rem;
@@ -175,23 +176,18 @@ h3 {
 
 #right {
   display: inline-block;
-  width: 30%;
+  width: 20%;
   font-size: 0;
   color: #033048;
-  margin-left: 2rem;
+  margin-left: 3rem;
   vertical-align: top;
+  text-align: right;
 }
 
 #right p {
   font-size: 2.4rem;
   font-weight: 300;
 }
-
-/* There is an odd chunk of empty space above "Categories", 
-but not the other h4 ("About"). When I give h4 a margin:0;, 
-it actually is moved even farther down the page for some reason.
-The "Inspect" tool in Chrome won't let me highlight that section
-at all - so where is it coming from?! Google stays silent on this.*/
 
 h4 {
   font-weight: 800;
@@ -202,11 +198,15 @@ h4 {
 #about p {
   font-size: 2.2rem;
   font-weight: 300;
+  text-align: right;
 }
 
 #about h3 {
   font-size: 2.2rem;
+  text-align: left;
 }
+
+/* BAH! WHY WILL THIS BUTTON NOT CENTER?!?!*/
 
 #cta-div {
   display: block;
